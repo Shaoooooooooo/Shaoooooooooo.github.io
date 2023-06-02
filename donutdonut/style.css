@@ -1,0 +1,87 @@
+.element-class {
+    cursor: url("游標01.png"), auto;
+  }
+
+.element-class:hover {
+    cursor: url("游標02.png");
+  }
+
+body {
+    background-image: url(bg02.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    animation: animatedBackground 20s linear infinite;
+}
+
+@keyframes animatedBackground {
+    from {background-position: 0 0;}
+    to {background-position: 0 -100vh;}
+}
+
+.container-fluid {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.3);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: lucida Console;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.container {
+    height: 850px;
+    width: 900px;
+    padding-top: 100px;
+    object-fit: cover;
+}
+
+.container-fluid_02 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: lucida Console;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+} 
+
+.container-fluid_03 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: lucida Console;
+}
+
+.container-fluid_04 {
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: Fantasy;
+    color: #493d38;
+}
+
+#myBtn {
+    display: flex;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: brown;
+
+}
+  
+  
